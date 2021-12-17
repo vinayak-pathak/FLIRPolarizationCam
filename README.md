@@ -7,5 +7,5 @@ FLIRCamOperation_Acquisition_and_Postprocessing
 - Install simple-pyspin by running `pip install simple-pyspin` for instructions visit https://pypi.org/project/simple-pyspin/ skip if installed using .yml file
 - Open `AcqusitionFinal.py` to capture the images using FLIR Blackfly USB BFS-U3-51S5PC-C, default acquisition pixel format is 'BayerRG8'
 - Alternatively you can capture using SpinView, download .exe file from https://flir.app.boxcn.net/v/SpinnakerSDK/folder/73503062578
-- For post processing follow the algorithm stated in `Processing.m`. 
+- For post processing follow the algorithm stated in `Processing_code.m`. 
 
