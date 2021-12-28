@@ -1,7 +1,13 @@
+clear all
+clc
 %% Short version of code
 %% Input I is a bayered image( i.e. not debayered)
-I = imread("denseconnectivetissue.tiff");
-sample_name = " Dense Connective Tissue " ;
+filepath = '/home/vinayak/Dropbox/FLIRCamDataset/Dataset';
+presentation = '/home/vinayak/Dropbox/FLIRCamDataset/Presentation';
+filename = 'Malaria2.tiff';
+I = imread(fullfile(filepath, filename));
+sample_name = 'Malaria' ;
+sampleid   = filename(1:end-5);
 %% 
 dx = 2;
 
@@ -69,9 +75,16 @@ heading = ["0 pol", "45 pol", "90 pol", "135 pol"];
 for k =1:4
     subplot(2, 2, klist(k))
     imshow(demosaic(Ipol{k},'rggb'))
+    img = demosaic(Ipol{k},'rggb');
+    filesavepath = fullfile(presentation, [sample_name heading(k) ".mat"]);
+    filesavepath = convertStringsToChars(filesavepath);
+    tit = sprintf('%ssample%s.mat', sample_name, heading(k));
+    save(tit, 'img');
     title(heading(k));
     sgtitle(sample_name);
+    
 end
+saveas(gca, fullfile(presentation,[sampleid '_rgb' '.tiff']))
 %% Visualize colour channel wise
 
 for k = 1:4
@@ -89,6 +102,7 @@ for channels = 1:3
     end
     titchannel = sprintf(' Channel %d', channels);
     sgtitle([sample_name titchannel]);
+    saveas(gca, fullfile(presentation,[sampleid '_channel' num2str(channels) '.tiff']))
 end
 %% --- END ----
 %% Expanded Version of above code
