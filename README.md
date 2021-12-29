@@ -8,4 +8,5 @@ FLIRCamOperation_Acquisition_and_Postprocessing
 - Open `AcqusitionFinal.py` to capture the images using FLIR Blackfly USB BFS-U3-51S5PC-C, default acquisition pixel format is 'BayerRG8'
 - Alternatively you can capture using SpinView, download .exe file from https://flir.app.boxcn.net/v/SpinnakerSDK/folder/73503062578
 - For post processing follow the algorithm stated in `Processing_code.m`. 
+- For computer at COL COLDD04 the default environment is `flircam' to activate it write `conda activate flircam`
 
