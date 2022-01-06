@@ -10,3 +10,13 @@ FLIRCamOperation_Acquisition_and_Postprocessing
 - For post processing follow the algorithm stated in `Processing_code.m`. 
 - For computer at COL COLDD04 the default environment is `flircam' to activate it write `conda activate flircam`
 
+Presentations:
+
+1. https://prodduke-my.sharepoint.com/:p:/g/personal/vp108_duke_edu/EbvqbhKZYxZOrN6h2XbrCEMBbzvm3oIBS8chpwXN8EFdow
+2. https://prodduke-my.sharepoint.com/:p:/g/personal/vp108_duke_edu/EbvqbhKZYxZOrN6h2XbrCEMBbzvm3oIBS8chpwXN8EFdow?e=bhltGb
+3. 
+
+
+
+
+
