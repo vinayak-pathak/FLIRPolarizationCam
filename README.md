@@ -12,9 +12,8 @@ FLIRCamOperation_Acquisition_and_Postprocessing
 
 Presentations:
 
-1. https://prodduke-my.sharepoint.com/:p:/g/personal/vp108_duke_edu/EbvqbhKZYxZOrN6h2XbrCEMBbzvm3oIBS8chpwXN8EFdow
+1. https://prodduke-my.sharepoint.com/:p:/g/personal/vp108_duke_edu/EY8OLI70TI9CvQmwhFNZS50B-9k65GQToIqJ6r9c0dZhHg?e=9nWoEd
 2. https://prodduke-my.sharepoint.com/:p:/g/personal/vp108_duke_edu/EbvqbhKZYxZOrN6h2XbrCEMBbzvm3oIBS8chpwXN8EFdow?e=bhltGb
-3. 
 
 
 
